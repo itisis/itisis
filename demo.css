@@ -1,0 +1,94 @@
+/*初始化*/
+body,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Liberation Sans", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, SimSun, "WenQuanYi Zen Hei Sharp", sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.view-port {
+    width: 100%;
+    margin: 0 auto;
+}
+.content {
+    width: 100%;
+    padding-top: 0.5835rem;
+    padding-left: 0.5835rem;
+    display: flex;
+    flex-basis: 35%;
+    
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+.item {
+    background-clip: content-box;
+    padding-right: 0.5835rem;
+    padding-bottom: 0.5835rem;
+    min-width: 35%;
+    flex-grow: 1;
+    
+}
+.item-content {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+.shot-wrap {
+    width: 100%;
+    padding-bottom: 55%;
+    position: relative;
+}
+.shot-content {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: blue;
+    z-index: 10;
+    overflow: hidden;
+}
+.shot-content>img {
+    width:100%;
+}
+.user-info {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5835rem;
+    overflow: hidden;
+}
+.user-header {
+    width: 3rem;
+    height: 3rem;
+    float: left;
+    border-radius: 3rem;
+    overflow: hidden;
+}
+.user-item {
+    height: 3rem;
+    overflow: hidden;
+    padding: .333rem 0;
+    padding-left: .66rem;
+}
+p {
+    line-height: 1.167rem;
+    font-size: .888rem;
+}
+.footer {
+    width: 100%;
+    height: 3rem;
+    background: #abf;
+    position: fixed;
+    bottom: 0;
+    z-index: 20;
+    text-align: center;
+    
+}
+.footer>p{
+    line-height: 3rem;
+}
